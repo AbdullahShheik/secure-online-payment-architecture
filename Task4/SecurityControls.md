@@ -1,4 +1,4 @@
-# Simple Security Controls Table
+# Security Controls Table
 
 | Control Category | Security Control | Justification |
 |------------------|------------------------|--------------------------|
