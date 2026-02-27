@@ -22,7 +22,7 @@ The user database stores customer profile information and authentication data.
 The merchant database maintains merchant registration details and account status.
 
 ## Transaction Database
-The transaction database stores payment records and transaction states.
+The transaction database stores payment records, transaction states and administrative actions record.
 
 ## Payment Gateway
 The payment gateway is an external third-party service that performs payment authorization and processing.

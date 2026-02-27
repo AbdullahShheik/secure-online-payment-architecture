@@ -1,17 +1,17 @@
 
 # Asset Inventory Table
 
-| Asset | Description | Location | Confidentiality | Integrity | Availability | Accountability |
-|------|-------------|----------|-----------------|-----------|-------------|---------------|
-| User Credentials | Customer and merchant login credentials including passwords| Authentication Service, User Database, Merchant Database | High | High | Medium | High |
-| Admin Credentials | Privileged administrator authentication data | Authentication Service, Admin Portal | High | High | Medium | High |
-| Session Tokens | Active user session identifiers| Web Frontend, API Backend | High | High | Medium | High |
-| Personal Information | Customer personal data such as name, email, phone, and address | User Database | High | Medium | Low | Medium |
-| Merchant Data | Merchant registration details | Merchant Database | High | High | Medium | Medium |
-| Payment Transaction Data | Payment details including payer, payee, and amount | Transaction Database | High | High | High | High |
-| Business Logic | Core payment processing workflows | API Backend | Medium | High | High | Medium |
-| Administrative records | all administrative activity records | API Backend | Medium | High | Medium | High |
-| Payment Processing Availability | Ability of the system to process payments in real time | API Backend, External Integrations | Low | High | High | High |
+| Asset | Description | Location | Security Objective |
+|------|-------------|----------|-----------------|
+| User Credentials | Customer and merchant login credentials including passwords| Authentication Service, User Database, Merchant Database | Confidentiality |
+| Admin Credentials | Privileged administrator authentication data | Authentication Service, Admin Portal | Confidentiality |
+| Session Tokens | Active user session identifiers| Web Frontend, API Backend | Confidentiality |
+| Personal Information | Customer personal data such as name, email, phone, and address | User Database | Confidentiality |
+| Merchant Data | Merchant registration details | Merchant Database | Integrity |
+| Payment Transaction Data | Payment details including payer, payee, and amount | Transaction Database | Integrity |
+| Business Logic | Core payment processing workflows | API Backend | Availability |
+| Administrative records | all administrative activity records | API Backend | Accountability |
+| Payment Processing Availability | Ability of the system to process payments in real time | API Backend, External Integrations | Availability |
 
 # Justification for above mapping
 
