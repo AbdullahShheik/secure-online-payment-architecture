@@ -80,8 +80,7 @@ This boundary secures financial communications with external banking infrastruct
 **Administrative Access:**  
 This boundary separates privileged administrative operations from normal user activities.
 
-<img src="Task1/OnlinePaymentSystemDesign.drawio.png" width="800" alt="Architecture Diagram">
-
+![High-Level Architecture Diagram](Task1/OnlinePaymentSystemDesign.drawio.png)
 # 2. Asset Inventory
 
 | Asset | Description | Location | Security Objective |
@@ -117,7 +116,7 @@ Assets involving authentication, financial transactions, and privileged access r
 | **T11** | Changing where the bank sends the final money | Tampering | Core Bank | Direct theft of large scale funds. | **Crit** | This is the worst case scenerio, massive theft. |
 | **T12** | Deleting security logs from administrative actions | Repudiation | System Logs | Complete loss of system logs, no way to prove a crime happened. | **Med** | Makes it impossible to catch the attacker. |
 
-![High-Level Architecture Diagram](Task3\SecureOnlinePaymentThreatModel.jpeg)
+![Threat Model](Task3/SecureOnlinePaymentThreatModel.jpeg)
 
 # 4. Security Controls
 
@@ -134,7 +133,7 @@ Assets involving authentication, financial transactions, and privileged access r
 | Monitoring & Logging | Login Alerts for Suspicious Activity | Detects unusual login attempts quickly. |
 | Monitoring & Logging | Daily Log Review | Helps identify suspicious behavior early. |
 
-![High-Level Architecture Diagram](Task4\SecurityControlsThreatModel.jpeg)
+![Security Controlled Threat Model](Task4/SecurityControlsThreatModel.jpeg)
 
 # 5. Risk Treatment
 
