@@ -80,7 +80,7 @@ This boundary secures financial communications with external banking infrastruct
 **Administrative Access:**  
 This boundary separates privileged administrative operations from normal user activities.
 
-![High-Level Architecture Diagram](Task1\OnlinePaymentSystemDesign.drawio.png)
+<img src="Task1/OnlinePaymentSystemDesign.drawio.png" width="800" alt="Architecture Diagram">
 
 # 2. Asset Inventory
 
